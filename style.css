@@ -1,21 +1,27 @@
 body{
+     width: 100%;
      margin: 0px;
-     padding:0px ;
-    background-color: rgb(238, 228, 209);
+     padding:0px;
+     overflow: scroll;
+     background-color: rgb(238, 228, 209);
 }
 .main{
-    background-color:rgb(238, 228, 209);
-    height: 100%;
-    margin-top: 80px;
-    margin-left: 30px;
-    margin-right: 30px;
 
+background-color:rgb(238, 228, 209);
+
+height: 100%;
+
+margin-top: 80px;
+
+margin-left: 0px;
+
+margin-right: 30px;
 }
 .attend{
     height: 300px;
     background-color: rgb(5, 5, 99);
-    margin-left: 170px;
-    margin-right: 170px;
+    margin: 0 auto;
+    width: 75%;
 }
 .attend h1{
     color: white;
@@ -57,8 +63,8 @@ body{
 .hr{
     background-color: white;
     margin-top:50px;
-    margin-left: 170px;
-    margin-right: 170px;
+    margin: 50px auto;
+    width: 75%;
     height: 450px;
 }
 .hr h1{
@@ -81,9 +87,9 @@ body{
 .selfserve{
     display: flex;
     background-color: white;
-    margin-top: 50px;
-    margin-left: 170px;
-    margin-right: 170px;
+  
+    margin: 50px auto;
+    width: 75%;
 }
 .self h2{
     color: skyblue;
@@ -134,9 +140,8 @@ body{
 }
 .manage{
     background-color: white;
-    margin-left: 170px;
-    margin-right: 170px;
-    margin-top: 50px;
+    margin: 50px auto;
+    width: 75%;
     display: flex;
 }
 .mu h2{
@@ -186,9 +191,8 @@ body{
 }
 .admin{
     background-color: white;
-    margin-left: 170px;
-    margin-right: 170px;
-    margin-top: 50px;
+    margin: 50px auto;
+    width: 75%;
     display: flex;
 }
 .em h2{
@@ -236,15 +240,14 @@ body{
     margin-top: 60px;
 }
 .trail{
-    margin-top: 50px;
-    margin-left: 170px;
-    margin-right: 170px;
+    margin: 50px auto;
+    width: 75%;
     background-color: white;
 }
 .trail h1{
     
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 360px;
+    padding-left: 360px;
     padding-top: 80px;
 }
 .btn{
@@ -300,3 +303,230 @@ font-family: Arial, Helvetica, sans-serif;
 text-decoration: none;
 color: rgb(168, 163, 163);
 }
+
+/* media qurries */
+@media (min-width:  1024px) and (max-width:1439px){
+
+    .attend{
+        margin: 0 auto ;
+        width: 80%;
+    }
+    .hr{
+        margin: 70px auto ;
+        width: 80%;
+        padding-bottom: 60px;
+    }
+    .manage{
+        margin: 70px auto ;
+        width: 80%;
+    }
+    .admin{
+        margin: 70px auto ;
+        width: 80%;
+    }
+    .trail{
+        margin: 70px auto ;
+        width: 80%;
+    }
+    .selfserve{
+        margin: 70px auto ;
+        width: 80%;
+    }
+    .attend h1{
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .p1{
+        padding-left: 100px;
+    }
+    .p2{
+        padding-left: 350px;
+    }
+    .system{
+        height: 50px;
+    }
+    .system ul li {
+        padding-right: 60px;
+        margin:15px;
+    }
+    .hr h1{
+        padding-top: 30px;
+    }
+    .self h2{
+        padding-left: 140px;
+    }
+    .self ul li {
+        padding-left: 60px;
+    }
+    .mu h2{
+        padding-left: 200px;
+    }
+    .mu ul li{
+        padding-left: 65px;
+    }
+    .img2{
+        padding-left: 30px;
+    }
+    .em h2{
+        padding-left: 165px;
+    }
+    .em ul li {
+        padding-left: 63px;
+    }
+    .img3{
+        padding-left: 30px;
+    }
+    .trail h1{
+            padding-left: 250px;
+    }
+    .address{
+        margin-left: 100px;
+       }
+    
+
+
+}
+/* media qurries mob */
+@media (min-width:  320px) and (max-width:1023px){  
+    body{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+    .attend{
+        width: 100%;
+    }
+    .attend h1{
+        font-size: 10px;
+        margin: 0 auto;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+    /* .main{
+        width: 100%;
+    }
+    .attend{
+       margin: 70px auto;
+       width: 100%;
+    }
+    .hr{
+        margin: 70px auto ;
+        width:100%;
+        padding-bottom: 60px;
+    }
+    .manage{
+        margin: 70px auto ;
+        width:100%;
+    }
+    .admin{
+        margin: 70px auto ;
+        width: 100%;
+    }
+    .trail{
+        margin: 70px auto ;
+        width: 100%;
+    }
+    .selfserve{
+        margin: 70px auto ;
+        width: 100%;
+    }
+    .attend h1{
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .p1{
+        padding-left:30px;
+    }
+    .p2{
+        padding-left: 350px;
+    }
+    .system{
+        height: 50px;
+    }
+    .system ul li {
+        padding-right: 60px;
+        margin:15px;
+    }
+    .hr h1{
+        padding-top: 30px;
+    }
+    .self h2{
+        padding-left: 100px;
+    }
+    .self ul li {
+        padding-left: 10px;
+    }
+    .mu h2{
+        padding-left: 200px;
+    }
+    .mu ul li{
+        padding-left: 65px;
+    }
+    .img2{
+        padding-left: 30px;
+    }
+    .em h2{
+        padding-left: 165px;
+    }
+    .em ul li {
+        padding-left: 63px;
+    }
+    .img3{
+        padding-left: 30px;
+    }
+    .trail h1{
+            padding-left: 250px;
+    }
+    .address{
+        margin-left: 100px;
+       }
+} */
